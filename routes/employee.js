@@ -1,7 +1,6 @@
 const express = require("express");
 const router = express.Router();
 const controller = require("../controller/employee.controller");
-const { body } = require("express-validator");
 
 // GET findAll
 router.get("/", controller.findAll);
